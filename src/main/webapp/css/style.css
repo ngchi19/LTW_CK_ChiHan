@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+html, body{
+	width: 100%;
+	height: 100%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+a, p{
+	margin-bottom: 0px;
+}
+.alert{
+    margin: 0;
+}
+/*REGISTER*/
+.dk{
+	display: flex;
+	 align-items: center;
+	  background-image: url(https://thietke6d.com/wp-content/uploads/2021/05/Mau-banner-quang-cao-nha-hang-6.png); 
+	  width: 100%; 
+	  height: 100%;
+	 background-size: cover; 
+	 background-repeat: no-repeat;
+}
+.dk .main{
+	background-color: white; 
+	padding: 30px 50px; 
+	border-radius: 20px;
+}
+/*HOME*/
+.header a.logo img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%
+}
+.banner{
+    
+    background-image:url(../img/bannerHome2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+}
+/*PRODUCT*/
+.product{
+    background-image: url(../img/bg2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat-y;
+    padding: 80px 0px;
+}
+.title{
+	margin-bottom: 40px;
+}
+.title span{
+	font-size: 40px;
+	border-bottom: 5px solid white;
+}
+.product .content .item{
+    margin-bottom: 30px;
+}
+.product .item .card-text{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+	color: black;
+}
+/*FOOTER*/
+.footer{
+    padding: 80px 0px;
+}
+.footer h3{
+    margin-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    color: white;
+}
+.footer ul li{
+    margin: 12px 0px;
+}
+.footer i{
+    margin-right: 10px;
+    
+}
